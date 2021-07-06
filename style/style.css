@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'NetflixSansM';
+  src: url(../fontes/NetflixSans_W_Md.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'NetflixSansR';
+  src: url(../fontes/NetflixSans_W_Rg.woff2) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'NetflixSansR', sans-serif;
+}
+
+body {
+  font-family: 'NetflixSansR', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'NetflixSansM', sans-serif;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.92rem;
+}
+
+h4 {
+  font-size: 1.6px;
+}
+
+ul {
+  font-style: none;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-weight: 500;
+}
+
+header {
+  height: 100vh;
+}
+
+.main-head {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.65)), to(transparent)), url(../imagens/backeground-image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65) 100%, transparent), url(../imagens/backeground-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding: 2.5rem 6rem;
+}
+
+.btn-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.language {
+  padding: 1rem 1rem;
+  outline: none;
+  margin-right: 3.2rem;
+  color: white;
+  background: inherit;
+  font-size: 1.4rem;
+}
+
+button {
+  padding: 0.9rem 1.8rem;
+  font-size: 1.6rem;
+  font-family: 'NetflixSansR', sans-serif;
+  outline: none;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: #e50913;
+  cursor: pointer;
+}
+
+.intro {
+  margin-top: 15rem;
+}
+
+.intro h1 {
+  font-size: 6.4rem;
+}
+
+.intro h1, h2, h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.intro h2 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.input-email {
+  padding: 2.5rem 17rem;
+  position: relative;
+}
+
+.label-email {
+  position: absolute;
+  z-index: 1;
+  left: 26%;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.button-email {
+  padding: 1.45rem 5rem;
+  border-radius: 0;
+  font-size: 3.2rem;
+}
+/*# sourceMappingURL=style.css.map */

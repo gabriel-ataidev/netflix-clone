@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'NetflixSansM';
+    src: url(../fontes/NetflixSans_W_Md.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'NetflixSansR';
+    src: url(../fontes/NetflixSans_W_Rg.woff2) format('woff2');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'NetflixSansR', sans-serif;
+}
+body {
+    font-family: 'NetflixSansR', sans-serif;
+}
+h1 {
+    font-size: $h1;
+    font-family: 'NetflixSansM', sans-serif;
+}
+h2 {
+    font-size: $h2;
+}
+h3 {
+    font-size: $h3;
+}
+h4 {
+    font-size: $h4;
+}
+ul {
+    font-style: none;
+}
+li {
+    font-size: $li;
+}
+h1, h2, h3{
+    color: white;
+    font-weight: 500;
+}
+

@@ -1,0 +1,86 @@
+
+header {
+    height: 100vh;
+}
+.main-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65) 100%, transparent), url(../imagens/backeground-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 2.5rem 6rem;
+}
+.btn-right {
+    display: flex;
+    flex-direction: row;
+}
+.language {
+    padding: 1rem 1rem;
+    outline: none;
+    margin-right: 3.2rem;
+    color: white;
+    background: inherit;
+    font-size: 1.4rem;
+}
+button {
+    padding: 0.9rem 1.8rem;
+    font-size: 1.6rem;
+    font-family: 'NetflixSansR', sans-serif;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    background-color: #e50913;
+    cursor: pointer;
+}
+
+.intro {
+    margin-top: 15rem;
+}
+.intro h1 {
+    font-size: 6.4rem;
+}
+
+.intro h1, h2, h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.1rem;
+}
+
+.intro h2 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.input-email {
+    padding: 2.5rem 17rem;
+    position: relative;
+}
+.label-email {
+    position: absolute;
+    z-index: 1;
+    left: 26%;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.button-email {
+    padding: 1.45rem 5rem;
+    border-radius: 0;
+    font-size: 3.2rem;
+}
