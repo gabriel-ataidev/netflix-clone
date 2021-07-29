@@ -64,6 +64,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-bottom: 0.8rem solid #3f3e3e;
 }
 
 nav {
@@ -119,11 +120,7 @@ button {
   margin-top: 15rem;
 }
 
-.intro h1 {
-  font-size: 6.4rem;
-}
-
-.intro h1, h2, h3 {
+.intro h1, .intro h2, .intro h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,6 +136,10 @@ button {
           align-items: center;
   text-align: center;
   padding: 0.1rem;
+}
+
+.intro h1 {
+  font-size: 6.4rem;
 }
 
 .intro h2 {
