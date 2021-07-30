@@ -179,4 +179,149 @@ button {
   border-radius: 0;
   font-size: 3.2rem;
 }
+
+.enjoy {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 0.8rem solid #3f3e3e;
+  padding: 0 20rem;
+}
+
+.enjoy .text {
+  width: 50%;
+  text-align: left;
+}
+
+.enjoy .text h1 {
+  padding-bottom: 1.3rem;
+}
+
+.enjoy .video-container {
+  width: 50%;
+}
+
+.enjoy .video-container .img {
+  position: relative;
+}
+
+.enjoy .video-container .video {
+  position: absolute;
+  top: 10rem;
+  left: 8.5rem;
+}
+
+.download {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.8rem solid #3f3e3e;
+  padding: 0;
+}
+
+.download .img {
+  width: 50%;
+}
+
+.download .text {
+  width: 50%;
+}
+
+.download .text h1 {
+  padding-bottom: 1.9rem;
+  line-height: 5.5rem;
+}
+
+.watch {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 0.8rem solid #3f3e3e;
+  padding: 0 20rem;
+}
+
+.watch .text {
+  width: 50%;
+  text-align: left;
+}
+
+.watch .text h1 {
+  padding-bottom: 1.3rem;
+}
+
+.watch .video-container {
+  position: relative;
+  width: 50%;
+}
+
+.watch .video-container .video {
+  position: absolute;
+  top: 5rem;
+  left: 12rem;
+}
+
+.create {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.8rem solid #3f3e3e;
+  padding: 0;
+}
+
+.create .img {
+  width: 50%;
+}
+
+.create .text {
+  width: 50%;
+}
+
+.create .text h1 {
+  padding-bottom: 1.9rem;
+  line-height: 5.5rem;
+}
 /*# sourceMappingURL=style.css.map */

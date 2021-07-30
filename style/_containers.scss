@@ -1,0 +1,90 @@
+.enjoy{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 0.8rem solid #3f3e3e;
+    padding: 0 20rem;
+    .text{
+        width: 50%;
+        text-align: left;
+        h1{
+            padding-bottom: 1.3rem;
+        }
+    }
+    .video-container{
+        width: 50%;
+        .img{
+            position: relative;
+            }
+        .video{
+            position: absolute;
+            top: 10rem;
+            left: 8.5rem;
+        }
+    }
+}
+.download{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.8rem solid #3f3e3e;
+    padding: 0;
+    .img{
+        width: 50%;
+    }
+    .text{
+        width: 50%;
+        h1{
+            padding-bottom: 1.9rem;
+            line-height: 5.5rem;
+        }
+    }
+}
+.watch{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 0.8rem solid #3f3e3e;
+    padding: 0 20rem;
+    .text{
+        width: 50%;
+        text-align: left;
+        h1{
+            padding-bottom: 1.3rem;
+        }
+    }
+    .video-container{
+        position: relative;
+        width: 50%;
+        .video{
+            position: absolute;
+            top: 5rem;
+            left: 12rem;
+        }
+    }
+}
+.create{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.8rem solid #3f3e3e;
+    padding: 0;
+    .img{
+        width: 50%;
+    }
+    .text{
+        width: 50%;
+        h1{
+            padding-bottom: 1.9rem;
+            line-height: 5.5rem;
+        }
+    }
+}
