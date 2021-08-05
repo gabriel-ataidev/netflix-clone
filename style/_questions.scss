@@ -7,21 +7,37 @@
     border-bottom: 0.8rem solid #3f3e3e;
     position: relative;
     h1{
-        margin: 5rem auto;
+        margin: 6rem auto;
     }
     .all-details{
-        margin-bottom: 10rem;
+        margin-bottom: 9rem;
+        display: flex;
+        flex-direction: column;
         details{
             display: inline;
             cursor: pointer;
             font-size: $h2;
             color: white;
             background: #3f3e3e;
-            width: 70rem;
+            width: 80rem;
             summary{
-                padding: 20rem 6rem 2rem 3rem;
+                padding: 2rem 6rem 2rem 3rem;
                 display: flex;
+                border-bottom: 0.1rem solid black;
+            }
+            .details-content{
+                margin: 3rem;
+                p + p{
+                    margin-top: 4rem;
+                }
             }
         }
+        details + details{
+            margin-top: 1rem;
+        }
+    }
+    h3{
+        text-align: center;
+        margin: 6rem 0 0.7rem;
     }
 }

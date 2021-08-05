@@ -379,11 +379,18 @@ button {
 }
 
 .questions h1 {
-  margin: 5rem auto;
+  margin: 6rem auto;
 }
 
 .questions .all-details {
-  margin-bottom: 10rem;
+  margin-bottom: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .questions .all-details details {
@@ -392,13 +399,31 @@ button {
   font-size: 2.6rem;
   color: white;
   background: #3f3e3e;
-  width: 85rem;
+  width: 80rem;
 }
 
 .questions .all-details details summary {
+  padding: 2rem 6rem 2rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem 0 2rem 1rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.questions .all-details details .details-content {
+  margin: 3rem;
+}
+
+.questions .all-details details .details-content p + p {
+  margin-top: 4rem;
+}
+
+.questions .all-details details + details {
+  margin-top: 1rem;
+}
+
+.questions h3 {
+  text-align: center;
+  margin: 6rem 0 0.7rem;
 }
 /*# sourceMappingURL=style.css.map */
