@@ -196,7 +196,7 @@ button {
       -ms-flex-direction: row;
           flex-direction: row;
   border-bottom: 0.8rem solid #3f3e3e;
-  padding: 0 20rem;
+  padding: 0 11rem 0 20rem;
 }
 
 .enjoy .text {
@@ -214,12 +214,26 @@ button {
 
 .enjoy .video-container .img {
   position: relative;
+  z-index: 2;
+}
+
+.enjoy .video-container .img img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .enjoy .video-container .video {
   position: absolute;
-  top: 10rem;
-  left: 8.5rem;
+  top: 11.4rem;
+  left: 7.3rem;
+  z-index: -1;
+}
+
+.enjoy .video-container .video video {
+  max-width: 80%;
+  height: auto;
 }
 
 .download {
@@ -243,6 +257,12 @@ button {
 
 .download .img {
   width: 50%;
+  margin: 3rem 0 5rem 12rem;
+}
+
+.download .img img {
+  max-width: 140%;
+  height: auto;
 }
 
 .download .text {
@@ -270,7 +290,7 @@ button {
       -ms-flex-direction: row;
           flex-direction: row;
   border-bottom: 0.8rem solid #3f3e3e;
-  padding: 0 20rem;
+  padding: 0 9rem 0 20rem;
 }
 
 .watch .text {
@@ -283,14 +303,28 @@ button {
 }
 
 .watch .video-container {
-  position: relative;
   width: 50%;
+  position: relative;
 }
 
 .watch .video-container .video {
   position: absolute;
-  top: 5rem;
-  left: 12rem;
+  top: 10.7rem;
+  left: 10rem;
+}
+
+.watch .video-container .video video {
+  max-width: 70%;
+  height: auto;
+}
+
+.watch .video-container .img {
+  margin: 7rem 0 10rem 0;
+}
+
+.watch .video-container .img img {
+  max-width: 90%;
+  height: auto;
 }
 
 .create {
