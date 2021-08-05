@@ -1,0 +1,27 @@
+.questions{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 0.8rem solid #3f3e3e;
+    position: relative;
+    h1{
+        margin: 5rem auto;
+    }
+    .all-details{
+        margin-bottom: 10rem;
+        details{
+            display: inline;
+            cursor: pointer;
+            font-size: $h2;
+            color: white;
+            background: #3f3e3e;
+            width: 70rem;
+            summary{
+                padding: 20rem 6rem 2rem 3rem;
+                display: flex;
+            }
+        }
+    }
+}

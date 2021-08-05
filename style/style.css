@@ -358,4 +358,47 @@ button {
   padding-bottom: 1.9rem;
   line-height: 5.5rem;
 }
+
+.questions {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 0.8rem solid #3f3e3e;
+  position: relative;
+}
+
+.questions h1 {
+  margin: 5rem auto;
+}
+
+.questions .all-details {
+  margin-bottom: 10rem;
+}
+
+.questions .all-details details {
+  display: inline;
+  cursor: pointer;
+  font-size: 2.6rem;
+  color: white;
+  background: #3f3e3e;
+  width: 85rem;
+}
+
+.questions .all-details details summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0 2rem 1rem;
+}
 /*# sourceMappingURL=style.css.map */
