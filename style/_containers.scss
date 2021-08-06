@@ -47,10 +47,40 @@
     padding: 0;
     .img{
         width: 50%;
-        margin: 3rem 0 5rem 12rem;
+        margin: 3rem 0 0rem 12rem;
         img{
             max-width: 140%;
             height: auto;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 32rem;
+            height: 11rem;
+            background: black;
+            border-radius: 1.5rem;
+            border: 0.1rem solid rgb(95, 95, 95);
+            top: 1rem;
+            transform: translate(32%, -125%);
+            align-items: center;
+            img{
+                padding: 1.5rem;
+                max-width: 28%;
+            }
+            p{
+                color: white;
+                font-size: $h4;
+                span{
+                    color: blue;
+                    font-size: 1.44rem;
+                }
+            }
+            .thegif{
+                padding: 0;
+                margin-left: 5rem;
+                width: 17%;
+                height: auto;
+            }
         }
     }
     .text{
@@ -81,8 +111,8 @@
         position: relative;
         .video{
             position: absolute;
-            top: 10.7rem;
-            left: 10rem;
+            top: 10.8rem;
+            left: 10.1rem;
             video{
                 max-width: 70%;
                 height: auto;
@@ -90,7 +120,9 @@
         }
         .img{
             margin: 7rem 0 10rem 0;
+            position: relative;
             img{
+                z-index: 10000;
                 max-width: 90%;
                 height: auto;
             }
