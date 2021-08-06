@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.6px;
+  font-size: 1.6rem;
 }
 
 ul {
@@ -425,5 +425,71 @@ button {
 .questions h3 {
   text-align: center;
   margin: 6rem 0 0.7rem;
+}
+
+footer {
+  background: black;
+  color: #3f3e3e;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3f3e3e;
+}
+
+footer a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+footer a:visited {
+  color: #3f3e3e;
+}
+
+footer p {
+  margin-left: 30rem;
+  padding-top: 7rem;
+  font-size: 1.6rem;
+}
+
+footer .lists {
+  padding: 3rem 41rem 3rem 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+footer .lists li {
+  list-style: none;
+  color: #3f3e3e;
+}
+
+footer .lists li + li {
+  padding-top: 1.3rem;
+}
+
+footer .select-language {
+  margin-left: 30rem;
+  margin-bottom: 3rem;
+}
+
+footer .select-language select {
+  padding: 1.7rem 3rem;
+}
+
+footer .p-net {
+  margin-left: 30rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
+  color: #3f3e3e;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=style.css.map */

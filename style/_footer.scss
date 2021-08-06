@@ -1,0 +1,47 @@
+footer{
+    background: black;
+    color: #3f3e3e;
+    a{
+        text-decoration: none;
+        color: #3f3e3e;
+        &:hover{
+            text-decoration-line: underline;
+        }
+        &:visited{
+            color: #3f3e3e;
+        }
+    }
+    p{
+        margin-left: 30rem;
+        padding-top: 7rem;
+        font-size: $h4;
+    }
+    .lists{
+        padding: 3rem 41rem 3rem 30rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: $li;
+        li{
+            list-style: none;
+            color: #3f3e3e;
+        }
+        li + li{
+            padding-top: 1.3rem;
+        }
+    }
+    .select-language{
+        margin-left: 30rem;
+        margin-bottom: 3rem;
+        select{
+            padding: 1.7rem 3rem;
+        }
+    }
+    .p-net{
+        margin-left: 30rem;
+        padding-top: 0;
+        padding-bottom: 3rem;
+        color: #3f3e3e;
+        font-size: $li;
+    }
+}
