@@ -24,6 +24,13 @@
                 padding: 2rem 6rem 2rem 3rem;
                 display: flex;
                 border-bottom: 0.1rem solid black;
+                position: relative;
+                &::after{
+                    content: '➕';
+                    color: white;
+                    position: absolute;
+                    right: 2.6rem;
+                }
             }
             .details-content{
                 margin: 3rem;
@@ -32,10 +39,14 @@
                 }
             }
         }
+        details[open] summary::after{
+            transform: rotate(45deg);
+        }
         details + details{
             margin-top: 1rem;
         }
     }
+
     h3{
         text-align: center;
         margin: 6rem 0 0.7rem;

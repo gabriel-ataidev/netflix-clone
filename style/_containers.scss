@@ -104,9 +104,14 @@
     justify-content: center;
     align-items: center;
     border-bottom: 0.8rem solid #3f3e3e;
-    padding: 0;
+    padding: 0 9rem 0 20rem;
     .img{
         width: 50%;
+        padding: 7rem 0rem 7rem;
+        img{
+            width: 85%;
+            height: auto;
+        }
     }
     .text{
         width: 50%;
